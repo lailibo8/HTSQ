@@ -1,0 +1,6 @@
+framework module HTSQ {
+  umbrella header "HTSQ-umbrella.h"
+
+  export *
+  module * { export * }
+}

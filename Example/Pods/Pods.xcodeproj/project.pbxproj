@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121838E8FC882DC0B9BBC1FE6743B29D /* Pods-HTSQ_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE5494F35784170767BF6C55B35182C /* Pods-HTSQ_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14A3BB33771C39A7319A4CCACE382756 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		85D758012A20BA396E8ADBC40C9CB39E /* HTSQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1C0A9A0B3B09CE04B68E8A1EE2EED45 /* HTSQ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFAAF40349A68A2A7727219C52791D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A0AE6A1059302EC9F346A4B3B4905024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CF42ECF6130713356838049406780BD8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6A03A70086E11FEEE323843E218F8F /* ReplaceMe.m */; };
+		CF49F2086B513737E723CEA2B756AD61 /* Pods-HTSQ_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B3FBBBD24E509FFA46C976502D764B /* Pods-HTSQ_Example-dummy.m */; };
+		D060C227F27682962E4B4F98D3022729 /* Pods-HTSQ_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64B0F7B399293E793E07EFCA3F05EAC /* Pods-HTSQ_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0D8EB93EBB94B8E70149A2C8366919C /* Pods-HTSQ_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E27FB94D6CCE632F81A662BFD7CAB0 /* Pods-HTSQ_Tests-dummy.m */; };
+		EDBFFB14156A4937F9A9707EE7460A47 /* HTSQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD460651F138FFBD3331FF2B2F2A8341 /* HTSQ-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616AF65164FD268FD63713229AB3CE92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE92141FC2A3E32418F1DFA5B872C61;
+			remoteInfo = HTSQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F58792BC8EEE4FD48F81C9944E78B5D /* HTSQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTSQ.xcconfig; sourceTree = "<group>"; };
+		12180E30E9EF4D0764D7AA2D5FFDC7E2 /* Pods-HTSQ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTSQ_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		15253CC4F86CCDE2329E393D5DAE7DE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DF52FBBB722144E3F37CF0B2B96101 /* Pods_HTSQ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTSQ_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D043BF358016F2BD372AEEE5DFA524C /* Pods-HTSQ_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTSQ_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2831C9331D7970DF119BAEC3782BB695 /* Pods-HTSQ_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTSQ_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D1FC99D2E5D92684C3ADBB2EDD11A0B /* Pods_HTSQ_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTSQ_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		321644C8C8BC00BF349B93137A83B088 /* HTSQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTSQ.modulemap; sourceTree = "<group>"; };
+		33E0DB994D5F62A8E96299534D577838 /* Pods-HTSQ_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTSQ_Tests-resources.sh"; sourceTree = "<group>"; };
+		345256006FE08D68120418899DF8868C /* HTSQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTSQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37028411E3756DA48622F86DCB4879A5 /* Pods-HTSQ_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTSQ_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		534B52323DEE53A5DD637F7EE5E1C790 /* Pods-HTSQ_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTSQ_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		59AC6373F0C27FF6DA04D743B2B66A57 /* Pods-HTSQ_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTSQ_Example-resources.sh"; sourceTree = "<group>"; };
+		65C3AF36794265FF5D8F71C43E6E499E /* Pods-HTSQ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTSQ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		69E27FB94D6CCE632F81A662BFD7CAB0 /* Pods-HTSQ_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTSQ_Tests-dummy.m"; sourceTree = "<group>"; };
+		73769115A3A40EFFA1AE95F6412A42D3 /* Pods-HTSQ_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTSQ_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7989795F2B971C8FE59F40FCC05F1FFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857A2A52495D60E6B582ED1196B185A2 /* HTSQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTSQ-prefix.pch"; sourceTree = "<group>"; };
+		8C02BD10060D9286D845D8E4F4CD04CD /* Pods-HTSQ_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTSQ_Example.modulemap"; sourceTree = "<group>"; };
+		8F8D96F49D36490EF1EAD27D55F8992C /* Pods-HTSQ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTSQ_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10B5A35EE20E0D5433EEF8D833295D0 /* Pods-HTSQ_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HTSQ_Tests.modulemap"; sourceTree = "<group>"; };
+		A1C0A9A0B3B09CE04B68E8A1EE2EED45 /* HTSQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTSQ-umbrella.h"; sourceTree = "<group>"; };
+		A3B3FBBBD24E509FFA46C976502D764B /* Pods-HTSQ_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTSQ_Example-dummy.m"; sourceTree = "<group>"; };
+		AEFCDAB3A19653DD9E45FF933F09397F /* Pods-HTSQ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTSQ_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BCA3E19BFD952988827AE7B0456EFA86 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE9D8FD65FDE8DD5C11C57D7D2736585 /* Pods-HTSQ_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTSQ_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DD460651F138FFBD3331FF2B2F2A8341 /* HTSQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTSQ-dummy.m"; sourceTree = "<group>"; };
+		E64B0F7B399293E793E07EFCA3F05EAC /* Pods-HTSQ_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTSQ_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC6A03A70086E11FEEE323843E218F8F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		FDE5494F35784170767BF6C55B35182C /* Pods-HTSQ_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTSQ_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443E092FD02226E99A38BABA93896DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFAAF40349A68A2A7727219C52791D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F6BD1465D0DD36A7179775A987C03F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AE6A1059302EC9F346A4B3B4905024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0698B18E3228C2071C7BBA35742C71B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14A3BB33771C39A7319A4CCACE382756 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46DC9894A02AD9435674A8B1946F315E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				345256006FE08D68120418899DF8868C /* HTSQ.framework */,
+				2D1FC99D2E5D92684C3ADBB2EDD11A0B /* Pods_HTSQ_Example.framework */,
+				17DF52FBBB722144E3F37CF0B2B96101 /* Pods_HTSQ_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E36F0E199B29437B9CD0598F67CDE7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8E531F47FDAEF8F96AE174605C49646 /* Pods-HTSQ_Example */,
+				4886B1810B91CE8281FB621E7C35CF03 /* Pods-HTSQ_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4886B1810B91CE8281FB621E7C35CF03 /* Pods-HTSQ_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCA3E19BFD952988827AE7B0456EFA86 /* Info.plist */,
+				A10B5A35EE20E0D5433EEF8D833295D0 /* Pods-HTSQ_Tests.modulemap */,
+				73769115A3A40EFFA1AE95F6412A42D3 /* Pods-HTSQ_Tests-acknowledgements.markdown */,
+				37028411E3756DA48622F86DCB4879A5 /* Pods-HTSQ_Tests-acknowledgements.plist */,
+				69E27FB94D6CCE632F81A662BFD7CAB0 /* Pods-HTSQ_Tests-dummy.m */,
+				534B52323DEE53A5DD637F7EE5E1C790 /* Pods-HTSQ_Tests-frameworks.sh */,
+				33E0DB994D5F62A8E96299534D577838 /* Pods-HTSQ_Tests-resources.sh */,
+				E64B0F7B399293E793E07EFCA3F05EAC /* Pods-HTSQ_Tests-umbrella.h */,
+				65C3AF36794265FF5D8F71C43E6E499E /* Pods-HTSQ_Tests.debug.xcconfig */,
+				8F8D96F49D36490EF1EAD27D55F8992C /* Pods-HTSQ_Tests.release.xcconfig */,
+			);
+			name = "Pods-HTSQ_Tests";
+			path = "Target Support Files/Pods-HTSQ_Tests";
+			sourceTree = "<group>";
+		};
+		504DAEA07F92BC66FC7713A363B0B6DB /* HTSQ */ = {
+			isa = PBXGroup;
+			children = (
+				CF9612F2C6E35FEE80842B7B1F757C6F /* Classes */,
+			);
+			path = HTSQ;
+			sourceTree = "<group>";
+		};
+		5F665608EBDE659A87A593ACD7AE28EA /* HTSQ */ = {
+			isa = PBXGroup;
+			children = (
+				504DAEA07F92BC66FC7713A363B0B6DB /* HTSQ */,
+				ECADC01FA1F186CE681290F0C3F51F0F /* Support Files */,
+			);
+			name = HTSQ;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9B33E7DD380C1AB80A260CB2674349D2 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				46DC9894A02AD9435674A8B1946F315E /* Products */,
+				46E36F0E199B29437B9CD0598F67CDE7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B33E7DD380C1AB80A260CB2674349D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F665608EBDE659A87A593ACD7AE28EA /* HTSQ */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF9612F2C6E35FEE80842B7B1F757C6F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC6A03A70086E11FEEE323843E218F8F /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E8E531F47FDAEF8F96AE174605C49646 /* Pods-HTSQ_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7989795F2B971C8FE59F40FCC05F1FFA /* Info.plist */,
+				8C02BD10060D9286D845D8E4F4CD04CD /* Pods-HTSQ_Example.modulemap */,
+				1D043BF358016F2BD372AEEE5DFA524C /* Pods-HTSQ_Example-acknowledgements.markdown */,
+				2831C9331D7970DF119BAEC3782BB695 /* Pods-HTSQ_Example-acknowledgements.plist */,
+				A3B3FBBBD24E509FFA46C976502D764B /* Pods-HTSQ_Example-dummy.m */,
+				CE9D8FD65FDE8DD5C11C57D7D2736585 /* Pods-HTSQ_Example-frameworks.sh */,
+				59AC6373F0C27FF6DA04D743B2B66A57 /* Pods-HTSQ_Example-resources.sh */,
+				FDE5494F35784170767BF6C55B35182C /* Pods-HTSQ_Example-umbrella.h */,
+				12180E30E9EF4D0764D7AA2D5FFDC7E2 /* Pods-HTSQ_Example.debug.xcconfig */,
+				AEFCDAB3A19653DD9E45FF933F09397F /* Pods-HTSQ_Example.release.xcconfig */,
+			);
+			name = "Pods-HTSQ_Example";
+			path = "Target Support Files/Pods-HTSQ_Example";
+			sourceTree = "<group>";
+		};
+		ECADC01FA1F186CE681290F0C3F51F0F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				321644C8C8BC00BF349B93137A83B088 /* HTSQ.modulemap */,
+				0F58792BC8EEE4FD48F81C9944E78B5D /* HTSQ.xcconfig */,
+				DD460651F138FFBD3331FF2B2F2A8341 /* HTSQ-dummy.m */,
+				857A2A52495D60E6B582ED1196B185A2 /* HTSQ-prefix.pch */,
+				A1C0A9A0B3B09CE04B68E8A1EE2EED45 /* HTSQ-umbrella.h */,
+				15253CC4F86CCDE2329E393D5DAE7DE4 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HTSQ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11EFEC87D505A6D7CD45BF2E1EFF5076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D060C227F27682962E4B4F98D3022729 /* Pods-HTSQ_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FEC394B67689C52D0115A6CC9E031F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121838E8FC882DC0B9BBC1FE6743B29D /* Pods-HTSQ_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A7C1C74662EB87134EAF736A7AF722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D758012A20BA396E8ADBC40C9CB39E /* HTSQ-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BE92141FC2A3E32418F1DFA5B872C61 /* HTSQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8191526B7FF3AF638254E5FA49B8F585 /* Build configuration list for PBXNativeTarget "HTSQ" */;
+			buildPhases = (
+				8416F8E0571718DD454FAAF656EBA37C /* Sources */,
+				68F6BD1465D0DD36A7179775A987C03F /* Frameworks */,
+				A4A7C1C74662EB87134EAF736A7AF722 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTSQ;
+			productName = HTSQ;
+			productReference = 345256006FE08D68120418899DF8868C /* HTSQ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FC5EADED13A289DB91F3A260F48A158 /* Pods-HTSQ_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577B33C17ECBD8BC20459E36CFA8F5F8 /* Build configuration list for PBXNativeTarget "Pods-HTSQ_Example" */;
+			buildPhases = (
+				52E1CE5AB9450721240F57F381539070 /* Sources */,
+				D0698B18E3228C2071C7BBA35742C71B /* Frameworks */,
+				2FEC394B67689C52D0115A6CC9E031F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A658773ABC8BD020B6BBC788296758AD /* PBXTargetDependency */,
+			);
+			name = "Pods-HTSQ_Example";
+			productName = "Pods-HTSQ_Example";
+			productReference = 2D1FC99D2E5D92684C3ADBB2EDD11A0B /* Pods_HTSQ_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F8BE26F227AE5F56BD8DF917271BB7D /* Pods-HTSQ_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ED09EFE6389E62FD510BF3082959BB /* Build configuration list for PBXNativeTarget "Pods-HTSQ_Tests" */;
+			buildPhases = (
+				C0FB32B78CB3DA5F47697A4D206F2DD0 /* Sources */,
+				443E092FD02226E99A38BABA93896DB6 /* Frameworks */,
+				11EFEC87D505A6D7CD45BF2E1EFF5076 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HTSQ_Tests";
+			productName = "Pods-HTSQ_Tests";
+			productReference = 17DF52FBBB722144E3F37CF0B2B96101 /* Pods_HTSQ_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 46DC9894A02AD9435674A8B1946F315E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE92141FC2A3E32418F1DFA5B872C61 /* HTSQ */,
+				7FC5EADED13A289DB91F3A260F48A158 /* Pods-HTSQ_Example */,
+				9F8BE26F227AE5F56BD8DF917271BB7D /* Pods-HTSQ_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E1CE5AB9450721240F57F381539070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF49F2086B513737E723CEA2B756AD61 /* Pods-HTSQ_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8416F8E0571718DD454FAAF656EBA37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDBFFB14156A4937F9A9707EE7460A47 /* HTSQ-dummy.m in Sources */,
+				CF42ECF6130713356838049406780BD8 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0FB32B78CB3DA5F47697A4D206F2DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D8EB93EBB94B8E70149A2C8366919C /* Pods-HTSQ_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A658773ABC8BD020B6BBC788296758AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTSQ;
+			target = 5BE92141FC2A3E32418F1DFA5B872C61 /* HTSQ */;
+			targetProxy = 616AF65164FD268FD63713229AB3CE92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0093DB21E4A46FFABF0CB5F9DEDEDEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F58792BC8EEE4FD48F81C9944E78B5D /* HTSQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTSQ/HTSQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTSQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTSQ/HTSQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTSQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14DB8D0B4EDFB808FA3BFE173255AB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C3AF36794265FF5D8F71C43E6E499E /* Pods-HTSQ_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTSQ_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTSQ_Tests/Pods-HTSQ_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTSQ_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3A5D16B3CE352D19106C0EAFA6BFEA56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12180E30E9EF4D0764D7AA2D5FFDC7E2 /* Pods-HTSQ_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTSQ_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTSQ_Example/Pods-HTSQ_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTSQ_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42B505FC422CB18AA4EC393F55500E2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F58792BC8EEE4FD48F81C9944E78B5D /* HTSQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTSQ/HTSQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTSQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTSQ/HTSQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTSQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4CF61109EF03F4265935ACC94E66811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F8D96F49D36490EF1EAD27D55F8992C /* Pods-HTSQ_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTSQ_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTSQ_Tests/Pods-HTSQ_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTSQ_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E78C22FE59C95C2577F88D4D4C340023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFCDAB3A19653DD9E45FF933F09397F /* Pods-HTSQ_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HTSQ_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HTSQ_Example/Pods-HTSQ_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HTSQ_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ED09EFE6389E62FD510BF3082959BB /* Build configuration list for PBXNativeTarget "Pods-HTSQ_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DB8D0B4EDFB808FA3BFE173255AB70 /* Debug */,
+				E4CF61109EF03F4265935ACC94E66811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577B33C17ECBD8BC20459E36CFA8F5F8 /* Build configuration list for PBXNativeTarget "Pods-HTSQ_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5D16B3CE352D19106C0EAFA6BFEA56 /* Debug */,
+				E78C22FE59C95C2577F88D4D4C340023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8191526B7FF3AF638254E5FA49B8F585 /* Build configuration list for PBXNativeTarget "HTSQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0093DB21E4A46FFABF0CB5F9DEDEDEED /* Debug */,
+				42B505FC422CB18AA4EC393F55500E2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

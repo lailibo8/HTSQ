@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTSQ_Example' do
+  pod 'HTSQ', :path => '../'
+
+  target 'HTSQ_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
